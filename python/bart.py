@@ -7,6 +7,7 @@ print sys.argv
 
 def print_usage():
   print 'requires station code as an argument\n'
+  print 'see http://api.bart.gov/docs/overview/abbrev.aspx\n'
 
 if len(sys.argv) != 2:
   print_usage
