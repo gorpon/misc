@@ -1,5 +1,9 @@
+#!/usr/bin/env python3
 
 def is_prime(a):
+    """
+    stolen from stackoverflow
+    """
     return all(a % i for i in range(2, a))
 
 
